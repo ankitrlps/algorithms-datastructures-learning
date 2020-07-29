@@ -2,6 +2,11 @@ package learning.algorithms.leetcode.easy;
 
 import java.util.Arrays;
 
+/**
+ * 136. Single Number
+ * URL - https://leetcode.com/problems/single-number/
+ */
+
 public class SingleNumber {
     public static void main(String[] args) {
         int[] nums = {2, 2, 1, 3, 1, 5}; // {4, 4, 3, 2, 1, 3}
