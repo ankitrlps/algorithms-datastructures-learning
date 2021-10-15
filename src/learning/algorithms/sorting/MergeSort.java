@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class MergeSort {
 
-    private void merge(int[] arr, int l, int m, int r){
+    private void merge(int[] arr, int l, int m, int r) {
 
-        int size1 = (m - l) + 1; // lowest to middle (including middle)
+        int size1 = (m - l) + 1; // lowest to middle (INCLUDING middle)
         int size2 = r - m; // Coz we want to start counting from m + 1
 
         int[] left = new int[size1];
