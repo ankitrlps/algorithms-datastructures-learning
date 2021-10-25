@@ -1,5 +1,9 @@
 package learning.algorithms;
 
+/**
+ * Given 4 2D coordinates and we need to find out if they form a square or not.
+ */
+
 public class FindIsSquare {
 
     private static int check(Point p1, Point p2) {
@@ -18,7 +22,7 @@ public class FindIsSquare {
         int side2 = check(p2, p3);
         int side3 = check(p3, p4);
         int side4 = check(p4, p1);
-        return side1 == side2 && side2 == side3 && side4 == side1;
+        return side1 == side2 && side2 == side3 && side3 == side4;
     }
 
     public static void main(String[] args) {

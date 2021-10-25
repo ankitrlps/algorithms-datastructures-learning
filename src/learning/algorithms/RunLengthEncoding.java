@@ -1,5 +1,10 @@
 package learning.algorithms;
 
+/**
+ * Counts the number of alphabets before finds a new one from previous.
+ *
+ * aabbbss -> a2b3s2
+ */
 public class RunLengthEncoding {
 
     public static void main(String[] args) {
