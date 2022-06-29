@@ -2,7 +2,7 @@ package learning.algorithms.leetcode.easy;
 
 public class ReverseInteger {
     public static void main(String[] args) {
-        int i = 1534236469;
+        int i = 15342369;
         StringBuilder res = new StringBuilder();
         int finalRes = 0;
         if(i < 0){
@@ -18,7 +18,8 @@ public class ReverseInteger {
         } catch (Exception e){
             finalRes = 0;
         }
-        reversInteger(1534236469);
+        System.out.println(finalRes);
+        System.out.println(reversInteger(15236469));
     }
 
     public static int reversInteger(int x){
