@@ -1,0 +1,259 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddTwoNumbersUsingLinkedList",
+            "request": "launch",
+            "mainClass": "learning.algorithms.AddTwoNumbersUsingLinkedList",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitSetCount",
+            "request": "launch",
+            "mainClass": "learning.algorithms.BitSetCount",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountSequenceABC",
+            "request": "launch",
+            "mainClass": "learning.algorithms.CountSequenceABC",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindIsSquare",
+            "request": "launch",
+            "mainClass": "learning.algorithms.FindIsSquare",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberToWords",
+            "request": "launch",
+            "mainClass": "learning.algorithms.NumberToWords",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "learning.algorithms.ReverseLinkedList",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunLengthEncoding",
+            "request": "launch",
+            "mainClass": "learning.algorithms.RunLengthEncoding",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShortestDistanceOfCoordinate",
+            "request": "launch",
+            "mainClass": "learning.algorithms.ShortestDistanceOfCoordinate",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortByPopularItem",
+            "request": "launch",
+            "mainClass": "learning.algorithms.SortByPopularItem",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddBinary",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.AddBinary",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstUniqueCharacterString",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.FirstUniqueCharacterString",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch HaystackNeedleEasy",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.HaystackNeedleEasy",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch LengthOfLongestSubstring",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.LengthOfLongestSubstring",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.LongestCommonPrefix",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSubArray",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.MaxSubArray",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortedArray",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.MergeSortedArray",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch MostCommonWord",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.MostCommonWord",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlusOne",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.PlusOne",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch PoliceThiefCatch",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.PoliceThiefCatch",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicatesSortedArray",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.RemoveDuplicatesSortedArray",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveElement",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.RemoveElement",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReorderLogFiles",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.ReorderLogFiles",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseInteger",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.ReverseInteger",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch RomanToInteger",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.RomanToInteger",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInsertPosition",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.SearchInsertPosition",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleNumber",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.SingleNumber",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch SquareRoot",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.SquareRoot",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSum",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.TwoSum",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidParentheses",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.ValidParentheses",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "learning.algorithms.searching.BinarySearch",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "learning.algorithms.sorting.MergeSort",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch CallingClassForArrayListImpl",
+            "request": "launch",
+            "mainClass": "learning.datastructures.list.CallingClassForArrayListImpl",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitAndByte",
+            "request": "launch",
+            "mainClass": "learning.javaconcepts.BitAndByte",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClassCreationMethods",
+            "request": "launch",
+            "mainClass": "learning.javaconcepts.classes.ClassCreationMethods",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch CallingBox",
+            "request": "launch",
+            "mainClass": "learning.javaconcepts.generics.CallingBox",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        }
+    ]
+}
