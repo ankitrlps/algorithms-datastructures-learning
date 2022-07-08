@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PassByValueAndReference",
+            "request": "launch",
+            "mainClass": "learning.javaconcepts.PassByValueAndReference",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimizeMaxElement",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.MinimizeMaxElement",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
