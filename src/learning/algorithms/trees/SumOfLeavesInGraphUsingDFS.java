@@ -1,6 +1,6 @@
 package learning.algorithms.trees;
 
-public class SumOfLeavesBT {
+public class SumOfLeavesInGraphUsingDFS {
 
     static class Node {
         int val;
@@ -25,7 +25,7 @@ public class SumOfLeavesBT {
 
     //static int sum = 0;
     private static int dfs(Node curr, int sum) {
-        if (curr.nodes == null) {
+        if (curr.nodes == null) { // used when neighbour is processed from recursion.
             sum += curr.val;
             return sum;
         }
@@ -51,7 +51,7 @@ public class SumOfLeavesBT {
         head.nodes[0].nodes[0].nodes = new Node[]{new Node(2), new Node(9)}; // Node 1 => 2, 9
         head.nodes[1].nodes = new Node[]{new Node(0), new Node(7), new Node(-4)}; // Node 3 => 0, 7, -4
         head.nodes[1].nodes[1].nodes = new Node[]{new Node(8)}; // Node 7 => 8
-        System.out.println(sumOfLeaves(head));
+        System.out.println("sum: " + sumOfLeaves(head));
     }
     
 }
