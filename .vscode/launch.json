@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PrintLeftSideOfBTree",
+            "request": "launch",
+            "mainClass": "learning.algorithms.trees.PrintLeftSideOfBTree",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeHeight",
+            "request": "launch",
+            "mainClass": "learning.algorithms.trees.TreeHeight",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixSortBoundary",
+            "request": "launch",
+            "mainClass": "learning.algorithms.leetcode.easy.MatrixSortBoundary",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortPractice",
+            "request": "launch",
+            "mainClass": "learning.algorithms.sorting.MergeSortPractice",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
             "name": "Launch SumOfLeavesInGraphUsingDFS",
             "request": "launch",
             "mainClass": "learning.algorithms.trees.SumOfLeavesInGraphUsingDFS",

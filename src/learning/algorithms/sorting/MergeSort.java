@@ -18,7 +18,9 @@ public class MergeSort {
         for (int j = 0; j < size2; j++) {
             right[j] = arr[m + 1 + j];
         }
+        
         int k = l, i = 0, j = 0;
+        
         while (i < size1 && j < size2) {
             if (left[i] < right[j]) {
                 arr[k] = left[i];
@@ -29,11 +31,13 @@ public class MergeSort {
             }
             k++;
         }
+        
         while (i < size1) {
             arr[k] = left[i];
             i++;
             k++;
         }
+        
         while (j < size2) {
             arr[k] = right[j];
             j++;

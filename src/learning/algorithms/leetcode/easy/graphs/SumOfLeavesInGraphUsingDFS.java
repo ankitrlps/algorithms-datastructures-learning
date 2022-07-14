@@ -1,4 +1,4 @@
-package learning.algorithms.trees;
+package learning.algorithms.leetcode.easy.graphs;
 
 public class SumOfLeavesInGraphUsingDFS {
 

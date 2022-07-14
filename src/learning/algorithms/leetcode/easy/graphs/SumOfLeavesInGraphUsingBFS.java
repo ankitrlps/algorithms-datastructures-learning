@@ -1,4 +1,4 @@
-package learning.algorithms.trees;
+package learning.algorithms.leetcode.easy.graphs;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -52,5 +52,5 @@ public class SumOfLeavesInGraphUsingBFS {
         head.nodes[1].nodes[1].nodes = new Node[]{new Node(8)}; // Node 7 => 8
         System.out.println("sum: " + sumOfLeaves(head));
     }
-    
+
 }
