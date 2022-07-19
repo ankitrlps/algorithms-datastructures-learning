@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ContructBinaryTree",
+            "request": "launch",
+            "mainClass": "learning.algorithms.trees.ContructBinaryTree",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Gcd",
+            "request": "launch",
+            "mainClass": "learning.algorithms.Gcd",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeTraversal",
+            "request": "launch",
+            "mainClass": "learning.algorithms.trees.TreeTraversal",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
             "name": "Launch PrintLeftSideOfBTree",
             "request": "launch",
             "mainClass": "learning.algorithms.trees.PrintLeftSideOfBTree",

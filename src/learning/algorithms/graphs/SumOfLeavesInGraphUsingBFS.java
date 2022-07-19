@@ -1,6 +1,9 @@
-package learning.algorithms.leetcode.easy.graphs;
+package learning.algorithms.graphs;
 
-public class SumOfLeavesInGraphUsingDFS {
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class SumOfLeavesInGraphUsingBFS {
 
     static class Node {
         int val;
@@ -12,36 +15,32 @@ public class SumOfLeavesInGraphUsingDFS {
     }
 
     private static int sumOfLeaves(Node head) {
-        int sum = 0;
-        if (head == null) {
-            return 0;
-        }
-        Node curr = head;
-        if (!curr.visited) {
-            curr.visited = true;
-        }
-        return sum = dfs(curr, sum);
+        bfs(head);
+        return sum;
     }
+    
+    static int sum = 0; // static variable
+    static Queue<Node> que = new LinkedList<>(); // static variable
 
-    //static int sum = 0;
-    private static int dfs(Node curr, int sum) {
-        if (curr.nodes == null) { // used when neighbour is processed from recursion.
-            sum += curr.val;
-            return sum;
+    private static void bfs(Node head) {
+        if (!head.visited) {
+            head.visited = true;
+            que.add(head);
+            System.out.println(que.peek().val + " ");
         }
-        for (Node next : curr.nodes) {
-            if (!next.visited) {
-                next.visited = true;
-                if (next.nodes == null) {
-                    sum += next.val;
-                } else {
-                    for (Node neighbour : next.nodes) {
-                        sum = dfs(neighbour, sum);
+        while (!que.isEmpty()) {
+            Node next = que.poll();
+            if (next.nodes == null) {
+                sum += next.val;
+            } else {
+                for (Node neighbour : next.nodes) {
+                    if (!neighbour.visited) {
+                        neighbour.visited = true;
+                        que.add(neighbour);  
                     }
                 }
             }
         }
-        return sum;
     }
 
     public static void main(String[] args) {
@@ -53,5 +52,5 @@ public class SumOfLeavesInGraphUsingDFS {
         head.nodes[1].nodes[1].nodes = new Node[]{new Node(8)}; // Node 7 => 8
         System.out.println("sum: " + sumOfLeaves(head));
     }
-    
+
 }

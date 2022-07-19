@@ -1,9 +1,6 @@
-package learning.algorithms.leetcode.easy.graphs;
+package learning.algorithms.graphs;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
-public class SumOfLeavesInGraphUsingBFS {
+public class SumOfLeavesInGraphUsingDFS {
 
     static class Node {
         int val;
@@ -15,32 +12,36 @@ public class SumOfLeavesInGraphUsingBFS {
     }
 
     private static int sumOfLeaves(Node head) {
-        bfs(head);
-        return sum;
-    }
-    
-    static int sum = 0; // static variable
-    static Queue<Node> que = new LinkedList<>(); // static variable
-
-    private static void bfs(Node head) {
-        if (!head.visited) {
-            head.visited = true;
-            que.add(head);
-            System.out.println(que.peek().val + " ");
+        int sum = 0;
+        if (head == null) {
+            return 0;
         }
-        while (!que.isEmpty()) {
-            Node next = que.poll();
-            if (next.nodes == null) {
-                sum += next.val;
-            } else {
-                for (Node neighbour : next.nodes) {
-                    if (!neighbour.visited) {
-                        neighbour.visited = true;
-                        que.add(neighbour);  
+        Node curr = head;
+        if (!curr.visited) {
+            curr.visited = true;
+        }
+        return sum = dfs(curr, sum);
+    }
+
+    //static int sum = 0;
+    private static int dfs(Node curr, int sum) {
+        if (curr.nodes == null) { // used when neighbour is processed from recursion.
+            sum += curr.val;
+            return sum;
+        }
+        for (Node next : curr.nodes) {
+            if (!next.visited) {
+                next.visited = true;
+                if (next.nodes == null) {
+                    sum += next.val;
+                } else {
+                    for (Node neighbour : next.nodes) {
+                        sum = dfs(neighbour, sum);
                     }
                 }
             }
         }
+        return sum;
     }
 
     public static void main(String[] args) {
@@ -52,5 +53,5 @@ public class SumOfLeavesInGraphUsingBFS {
         head.nodes[1].nodes[1].nodes = new Node[]{new Node(8)}; // Node 7 => 8
         System.out.println("sum: " + sumOfLeaves(head));
     }
-
+    
 }
