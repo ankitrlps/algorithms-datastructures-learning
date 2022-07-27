@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch KthElement",
+            "request": "launch",
+            "mainClass": "learning.algorithms.KthElement",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindNthRoot",
+            "request": "launch",
+            "mainClass": "learning.algorithms.FindNthRoot",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindSumOfElementsWithDuplicates",
+            "request": "launch",
+            "mainClass": "learning.algorithms.FindSumOfElementsWithDuplicates",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlattenMap",
+            "request": "launch",
+            "mainClass": "learning.algorithms.FlattenMap",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumDaysToDeliver",
+            "request": "launch",
+            "mainClass": "learning.algorithms.MinimumDaysToDeliver",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
             "name": "Launch ContructBinaryTree",
             "request": "launch",
             "mainClass": "learning.algorithms.trees.ContructBinaryTree",

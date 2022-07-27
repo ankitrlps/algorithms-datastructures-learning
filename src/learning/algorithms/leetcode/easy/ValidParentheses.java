@@ -27,4 +27,31 @@ public class ValidParentheses {
         }
         return openBrackets.isEmpty();
     }
+
+
+    public boolean isValid1(String s) {
+        Map<Character, Character> map = new HashMap<>();
+        map.put('(', ')');
+        map.put('{', '}');
+        map.put('[', ']');
+        if (s.length() == 1) {
+            return false;
+        }
+        int i = 0;
+        boolean res = true;
+        Stack<Character> stack = new Stack<>();
+        while (i < s.length()) {
+            if (map.containsKey(s.charAt(i))) {
+                stack.add(s.charAt(i));
+            } else if (stack.isEmpty() || map.get(stack.pop()) != s.charAt(i)) {
+                res = false;
+                break;
+            }
+            i++;
+        }
+        if (!stack.isEmpty()) {
+            res = false;
+        }
+        return res;
+    }
 }
