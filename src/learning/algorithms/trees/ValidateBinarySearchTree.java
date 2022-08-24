@@ -2,12 +2,12 @@ package learning.algorithms.trees;
 
 public class ValidateBinarySearchTree {
     
-    public boolean isValidBSTUsingRange(TreeNode root) {
+    public boolean isValidBSTUsingRange(Node root) {
         check(root, null, null); // - BFS
         return check1(root); // - DFS
     }
     
-    private static boolean check(TreeNode node, Integer low, Integer high) {
+    private static boolean check(Node node, Integer low, Integer high) {
         if (node == null) {
             return true; // because we reached the lead node and reaching lead node means above nodes are valid
         }
@@ -21,7 +21,7 @@ public class ValidateBinarySearchTree {
 
     static Integer prev = null;
     
-    private static boolean check1(TreeNode node) {
+    private static boolean check1(Node node) {
         if (node == null) {
             return true;
         }

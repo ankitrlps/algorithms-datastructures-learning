@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IsomorphicString",
+            "request": "launch",
+            "mainClass": "learning.algorithms.IsomorphicString",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch TEst",
+            "request": "launch",
+            "mainClass": "learning.algorithms.TEst",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch BreakAPalindrome",
+            "request": "launch",
+            "mainClass": "learning.algorithms.BreakAPalindrome",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReconstructOriginalDigitsFromEnglish",
+            "request": "launch",
+            "mainClass": "learning.algorithms.ReconstructOriginalDigitsFromEnglish",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch HouseRobber",
+            "request": "launch",
+            "mainClass": "learning.algorithms.HouseRobber",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch BombEnemy",
+            "request": "launch",
+            "mainClass": "learning.algorithms.BombEnemy",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSubArraySum",
+            "request": "launch",
+            "mainClass": "learning.algorithms.MaximumSubArraySum",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch InOrderSuccessorOfNodeInBT",
+            "request": "launch",
+            "mainClass": "learning.algorithms.trees.InOrderSuccessorOfNodeInBT",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch MissingNumber",
+            "request": "launch",
+            "mainClass": "learning.algorithms.MissingNumber",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
             "name": "Launch NumberOfIslands",
             "request": "launch",
             "mainClass": "learning.algorithms.NumberOfIslands",

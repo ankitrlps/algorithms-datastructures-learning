@@ -7,7 +7,7 @@ import java.util.Stack;
 
 public class ZigZagTraversal {
 
-    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+    public List<List<Integer>> zigzagLevelOrder(Node root) {
         if (root == null) {
             return new ArrayList<>();
         }
@@ -19,14 +19,14 @@ public class ZigZagTraversal {
             return result;
         }
         int depth = 1;
-        LinkedList<TreeNode> ll = new LinkedList<>();
+        LinkedList<Node> ll = new LinkedList<>();
         ll.add(root);
         while(!ll.isEmpty()) {
-            LinkedList<TreeNode> tempLL = new LinkedList<>();
+            LinkedList<Node> tempLL = new LinkedList<>();
             List<Integer> depthList = new ArrayList<>();
             if (depth % 2 == 0) {
                 while (!ll.isEmpty()) {
-                    TreeNode node = ll.pollLast();
+                    Node node = ll.pollLast();
                     Integer left = null;
                     Integer right = null;
                     if (node.left != null) {
@@ -46,7 +46,7 @@ public class ZigZagTraversal {
                 if (!depthList.isEmpty()) result.add(depthList);
             } else {
                 while (!ll.isEmpty()) {
-                    TreeNode node = ll.pollLast();
+                    Node node = ll.pollLast();
                     Integer left = null;
                     Integer right = null;
                     if (node.right != null) {

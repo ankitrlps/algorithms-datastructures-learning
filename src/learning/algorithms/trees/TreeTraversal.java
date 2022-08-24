@@ -2,7 +2,7 @@ package learning.algorithms.trees;
 
 public class TreeTraversal {
 
-    private void inOrder(TreeNode root) {
+    private void inOrder(Node root) {
         if (root == null) {
             return;
         }
@@ -11,7 +11,7 @@ public class TreeTraversal {
         inOrder(root.right);
     }
 
-    private void preOrder(TreeNode root) {
+    private void preOrder(Node root) {
         if (root == null) {
             return;
         }
@@ -20,7 +20,7 @@ public class TreeTraversal {
         preOrder(root.right);
     }
 
-    private void postOrder(TreeNode root) {
+    private void postOrder(Node root) {
         if (root == null) {
             return;
         }
@@ -30,11 +30,11 @@ public class TreeTraversal {
     }
 
     public static void main(String[] args) {            
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(3);
-        root.left.left = new TreeNode(4);
-        root.left.right = new TreeNode(5);
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(3);
+        root.left.left = new Node(4);
+        root.left.right = new Node(5);
         TreeTraversal traversal = new TreeTraversal();
         System.out.println("---- Pre-Order Traversal ----");
         traversal.preOrder(root);

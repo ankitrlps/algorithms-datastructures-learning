@@ -1,12 +1,12 @@
 package learning.algorithms.trees;
 
-public class TreeNode {
+public class Node {
     int val;
     boolean visited = false;
-    TreeNode left;
-    TreeNode right;
+    Node left;
+    Node right;
 
-    public TreeNode(int val) {
+    public Node(int val) {
         this.val = val;
         left = right = null;
     }
