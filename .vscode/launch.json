@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch EvaluateReversePolishNotation",
+            "request": "launch",
+            "mainClass": "learning.algorithms.EvaluateReversePolishNotation",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
             "name": "Launch IsomorphicString",
             "request": "launch",
             "mainClass": "learning.algorithms.IsomorphicString",
