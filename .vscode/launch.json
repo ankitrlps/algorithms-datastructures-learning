@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FindPivotIndex",
+            "request": "launch",
+            "mainClass": "learning.algorithms.FindPivotIndex",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimestampCheck",
+            "request": "launch",
+            "mainClass": "learning.javaQuestions.TimestampCheck",
+            "projectName": "algorithms-datastructures-learning_956eaecb"
+        },
+        {
+            "type": "java",
             "name": "Launch EvaluateReversePolishNotation",
             "request": "launch",
             "mainClass": "learning.algorithms.EvaluateReversePolishNotation",

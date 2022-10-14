@@ -3,6 +3,7 @@ package learning.algorithms;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * 
@@ -63,6 +64,6 @@ public class MinimumDaysToDeliverPackages {
         //int[] arr = {1, 1, 1, 1, 1};
         int[] arr = {8, 5, 9, 3, 4};
         //System.out.println(minDays(parcels));
-        System.out.println("Min Days: " + minDays(Arrays.stream(arr).boxed().toList()));
+        System.out.println("Min Days: " + minDays(Arrays.stream(arr).boxed().collect(Collectors.toList())));
     }
 }
